@@ -1,0 +1,23 @@
+.calc_wrapper{
+  background-color: #c8c8c4;
+  height: 400px;
+  width: 50vw;
+  border: 2px solid #c8c8c4;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.speed_init_velocity{
+  display: none;
+}
+.speed_final_velocity{
+  display: none;
+}
+.speed_acceleration{
+  display: none;
+}
+.speed_time{
+  display: none;
+}
+.close{
+  float: right
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jQuery.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<center>
+  <div class="speed_calc_menu_wrapper">
+    <h1>Select what calculation you to perform</h1>
+    <ul class="speed_calc_menu">
+      <li><button type="button">Initial Velocity</button></li>
+      <li><button type="button">Final Velocity</button></li>
+      <li><button type="button">Acceleration</button></li>
+      <li><button type="button">Time</button></li>
+    </ul>
+  </div>
+
+
+<div class="calc_wrapper speed_init_velocity">
+  <button type="button" name="speed_init_velocity" class="close">x</button>
+  <h1>Determining initial velocity</h1>
+  <form class="initial_velocity">
+    <p>Final velocity: </p>
+    <input type="text" name="v" placeholder="Final Velocity"><br>
+    <p>Acceleration: </p>
+    <input type="text" name="a" placeholder="Acceleration"><br>
+    <p>Time: </p>
+    <input type="text" name="t" placeholder="Time"><br>
+    <button type="button" name="calc_initial_speed">Calculate</button>
+  </form>
+  <p class="initial_speed_output"></p>
+</div>
+
+<div class="calc_wrapper speed_final_velocity">
+  <button type="button" name="speed_final_velocity" class="close">x</button>
+  <h1>Determining Final velocity</h1>
+  <form class="final_velocity">
+    <p>Initial velocity: </p>
+    <input type="text" name="u" placeholder="Initial Velocity"><br>
+    <p>Acceleration: </p>
+    <input type="text" name="a" placeholder="Acceleration"><br>
+    <p>Time: </p>
+    <input type="text" name="t" placeholder="Time"><br>
+    <button type="button" name="calc_final_velocity">Calculate</button>
+  </form>
+  <p class="final_velocity_output"></p>
+</div>
+
+<div class="calc_wrapper speed_acceleration">
+  <button type="button" name="speed_acceleration" class="close">x</button>
+  <h1>Determining Acceleration</h1>
+  <form class="acceleration">
+    <p>Initial velocity: </p>
+    <input type="text" name="u" placeholder="Initial Velocity"><br>
+    <p>Final velocity: </p>
+    <input type="text" name="v" placeholder="Final velocity"><br>
+    <p>Time: </p>
+    <input type="text" name="t" placeholder="Time"><br>
+    <button type="button" name="calc_acceleration">Calculate</button>
+  </form>
+  <p class="acceleration_output"></p>
+</div>
+
+<div class="calc_wrapper speed_time">
+  <button type="button" name="speed_time" class="close">x</button>
+  <h1>Determining Time</h1>
+  <form class="time">
+    <p>Initial velocity: </p>
+    <input type="text" name="u" placeholder="Initial Velocity"><br>
+    <p>Final velocity: </p>
+    <input type="text" name="v" placeholder="Final Velocity"><br>
+    <p>Acceleration: </p>
+    <input type="text" name="a" placeholder="Acceleration"><br>
+    <button type="button" name="calc_time">Calculate</button>
+  </form>
+  <p class="time_output"></p>
+</div>
+</center>
+
+<script src="scripts/main.js">
+
+</script>
+</body>
+</html>
